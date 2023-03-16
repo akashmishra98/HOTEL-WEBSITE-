@@ -1,0 +1,42 @@
+nav{
+    height: 8vh;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    align-items: center;
+}
+.navtitle{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    width: 25%;
+}
+.logo{
+    font-size: x-large;
+    /* font-size: larger; */
+    font-weight: 600;
+}
+li {
+    margin-left: 4%;
+    /* text-decoration: underline; */
+  
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition-property: inherit;
+    transition-delay: 1s;
+    transition: width .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+button{
+    height: 4vh; 
+    width: 5vw; 
+    margin-left: -5vw;
+    background-color: black;
+    color: white;
+}
